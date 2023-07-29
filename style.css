@@ -68,3 +68,17 @@ form button:hover{
     background-color: green;
     color: white;
 }
+.todo-item{
+    padding-left: 0.5rem;
+}
+.fa-trash , .fa-check{
+    pointer-events: none;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
